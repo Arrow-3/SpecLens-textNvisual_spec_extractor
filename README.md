@@ -31,7 +31,7 @@ The design principles:
 The pipeline has four stages. Ingestion and extraction each have parallel text and vision branches that merge into a single validated JSON spec.
 
 <p align="center">
-  <img src="Architechture_Multimodal_Spec_Extractor.png" alt="Four-stage pipeline" width="800"/>
+  <img src="Multimodal_Spec_Extractor.png" alt="Four-stage pipeline" width="800"/>
 </p>
 
 | Stage | Component | Responsibility |
