@@ -10,7 +10,7 @@ Built on the open-source SICK datasheet corpus (five families across LiDAR, phot
 
 ---
 
-## Why this project
+## Motivation for this project
 
 Industrial datasheets are the primary source of truth for sensor integration: every engineer who wires up a new device reads one. They are also stubbornly unstructured. A single PDF carries prose, multi-column tables, pin diagrams rendered as line art, remission curves on log-axis charts, and dimension drawings annotated in two languages. The answer to "what is this sensor's supply voltage?" lives in prose; the answer to "which pin is +Vs?" lives in a labelled diagram; the answer to "what's its sensing range on a 6% remission target?" lives on a plot. A system that can only read text sees roughly 60% of the datasheet.
 
