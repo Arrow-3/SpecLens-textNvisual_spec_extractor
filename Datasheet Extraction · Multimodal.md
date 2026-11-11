@@ -1,5 +1,3 @@
-Architecture · multimodal extension · 2026-11-09
-
 # Datasheet Extraction · Text + Vision
 
 Text branch keeps Llama 3.1 8B for prose specs. A parallel vision branch routes diagrams, pin assignments and plots through Qwen2-VL 7B. Both merge into one validated JSON spec.
