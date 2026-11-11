@@ -273,7 +273,7 @@ Honest caveats, because every pipeline has them.
 
 ## References
 
-- SICK AG datasheet corpus — [sick.com](https://www.sick.com)
+- SICK AG datasheet corpus - [sick.com](https://www.sick.com)
 - Lewis et al., *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*, NeurIPS 2020
 - Wang et al., *Qwen2-VL: Enhancing Vision-Language Model's Perception of the World*, 2024
 - Nussbaum et al., *Nomic Embed: Training a Reproducible Long Context Text Embedder*, 2024
