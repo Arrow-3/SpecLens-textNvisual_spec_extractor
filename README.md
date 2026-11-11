@@ -5,7 +5,7 @@ A local, retrieval-augmented agent that turns unstructured industrial sensor dat
 Built on the open-source SICK datasheet corpus (five families across LiDAR, photoelectric, time-of-flight, motor-feedback encoders, and flow sensors), running entirely on a developer's own machine through [Ollama](https://ollama.com).
 
 <p align="center">
-  <Architechture_Multimodal_Spec_Extractor.png" alt="SpecLens architecture overview" width="820"/>
+  <Architechture_Multimodal_Spec_Extractor.png" alt="SpecLens architecture overview" width="1000"/>
 </p>
 
 ---
