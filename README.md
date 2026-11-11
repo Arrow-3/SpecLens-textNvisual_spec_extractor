@@ -1,4 +1,4 @@
-# SpecLens — Local Datasheet-to-Spec Extraction
+# SpecLens : Local Datasheet-to-Spec Extraction
 
 A local, retrieval-augmented agent that turns unstructured industrial sensor datasheets into validated, structured JSON specifications. Text and diagrams are both first-class inputs: prose specs flow through a text LLM, while pin assignments, dimensional drawings, and characteristic curves flow through a vision LLM. Every extraction carries a verbatim citation and passes a deterministic verification check before it reaches the output.
 
