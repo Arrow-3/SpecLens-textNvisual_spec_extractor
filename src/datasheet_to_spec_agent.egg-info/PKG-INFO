@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: datasheet-to-spec-agent
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.11
+Requires-Dist: rich>=15.0.0

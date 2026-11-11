@@ -1,0 +1,52 @@
+
+family: flow
+display_name: Thermal mass flow sensor
+classifier_hints:
+  - flow sensor
+  - flow rate
+  - compressed air
+  - thermal mass
+  - Durchflussmesser
+  - FTMg
+  - m³/h
+fields:
+  - name: part_number
+    display_name: Part number
+    query: What is the part number or type designation?
+    search_terms: [part number, type, order code, Bestellnummer, Typ]
+  - name: medium
+    display_name: Measured medium
+    query: What medium is measured — compressed air, gas, water?
+    search_terms: [medium, compressed air, gas, air, Druckluft, Medium]
+  - name: flow_rate_range
+    display_name: Flow rate range
+    query: What is the flow rate measuring range in m³/h or l/min?
+    search_terms: [flow rate, measuring range, "m³/h", "l/min", Messbereich, Durchfluss]
+  - name: accuracy
+    display_name: Measurement accuracy
+    query: What is the measurement accuracy?
+    search_terms: [accuracy, precision, Genauigkeit, Messgenauigkeit]
+  - name: pressure_range
+    display_name: Pressure range
+    query: What is the operating pressure range in bar?
+    search_terms: [pressure range, operating pressure, bar, Betriebsdruck]
+  - name: medium_temperature
+    display_name: Medium temperature range
+    query: What is the medium temperature range in °C?
+    search_terms: [medium temperature, media temperature, Medientemperatur, "°C"]
+  - name: supply_voltage
+    display_name: Supply voltage
+    query: What is the supply voltage range in volts DC?
+    search_terms: [supply voltage, Betriebsspannung, V DC, VDC]
+  - name: output_signal
+    display_name: Output signal
+    query: What is the output signal — analog, IO-Link, switching?
+    search_terms: [analog, IO-Link, switching output, Ausgang, output]
+  - name: process_connection
+    display_name: Process connection
+    query: What is the process connection thread size — G½, R½, G¾?
+    search_terms: [process connection, thread, "G½", "G3/4", "R½", Prozessanschluss, Gewinde]
+  - name: ambient_temperature
+    display_name: Ambient temperature range
+    query: What is the ambient temperature range in °C?
+    search_terms: [ambient temperature, Umgebungstemperatur, "°C"]

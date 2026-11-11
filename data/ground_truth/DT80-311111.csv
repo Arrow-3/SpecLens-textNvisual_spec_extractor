@@ -1,0 +1,10 @@
+field,expected_value,notes
+part_number,DT80-311111,order number 1118113
+measuring_range,50 mm ... 80000 mm,at 90% remission factor; 50-14000 mm at 6% remission
+accuracy,± 2 mm,at 6-90% remission factor
+measuring_rate,33 ms ... 68 ms,response time; depends on object and filter settings
+supply_voltage,12 V ... 30 V DC,IO-Link requires >18V; analog voltage output requires >13V
+output_type,IO-Link / push-pull PNP/NPN / analog 4-20 mA or 0-10 V,IO-Link V1.1 plus 1-2 digital outputs plus analog
+laser_class,Class 2,IEC 60825-1:2014; 655 nm wavelength; < 1 mW max pulse power
+ip_rating,IP65 / IP67,
+ambient_temperature,-10 °C ... +50 °C,extended to +80 °C with cooling plates or heat protection filter

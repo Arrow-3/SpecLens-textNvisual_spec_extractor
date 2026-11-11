@@ -1,0 +1,51 @@
+family: photoelectric
+display_name: Photoelectric sensor
+classifier_hints:
+  - photoelectric
+  - retro-reflective
+  - through-beam
+  - diffuse
+  - light spot
+  - Lichtschranke
+  - Reflex
+fields:
+  - name: part_number
+    display_name: Part number
+    query: What is the part number or type designation?
+    search_terms: [part number, type, order code, Bestellnummer, Typ]
+  - name: sensing_mode
+    display_name: Sensing mode
+    query: What is the sensing mode — retro-reflective, diffuse, or through-beam?
+    search_terms: [retro-reflective, diffuse, through-beam, Reflexions, Taster, Einweg]
+  - name: sensing_range
+    display_name: Sensing range
+    query: What is the sensing range or scanning distance in mm or m?
+    search_terms: [sensing range, scanning range, Tastweite, Reichweite, mm, m]
+  - name: light_source
+    display_name: Light source
+    query: What is the light source — visible red laser, infrared LED, or other?
+    search_terms: [light source, LED, laser, infrared, red, Lichtquelle]
+  - name: switching_frequency
+    display_name: Switching frequency
+    query: What is the maximum switching frequency in Hz?
+    search_terms: [switching frequency, Schaltfrequenz, Hz]
+  - name: supply_voltage
+    display_name: Supply voltage
+    query: What is the supply voltage range in volts DC?
+    search_terms: [supply voltage, operating voltage, Betriebsspannung, V DC, VDC]
+  - name: output_type
+    display_name: Output type
+    query: What is the output type — PNP, NPN, push-pull, or IO-Link?
+    search_terms: [PNP, NPN, push-pull, IO-Link, output, Ausgang]
+  - name: connection_type
+    display_name: Connection type
+    query: What is the electrical connection — M12 connector, cable, or terminals?
+    search_terms: [M12, M8, connector, cable, connection, Anschluss, Steckverbinder]
+  - name: ip_rating
+    display_name: IP rating
+    query: What is the IP protection rating — IP65, IP67, IP69K?
+    search_terms: [IP65, IP67, IP69K, protection class, Schutzart]
+  - name: ambient_temperature
+    display_name: Ambient temperature range
+    query: What is the ambient operating temperature range in °C?
+    search_terms: [ambient temperature, operating temperature, Umgebungstemperatur, "°C"]

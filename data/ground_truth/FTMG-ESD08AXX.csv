@@ -1,0 +1,11 @@
+field,expected_value,notes
+part_number,FTMG-ESD08AXX,order number 1143755
+medium,"Compressed air, Argon, nitrogen, carbon dioxide",air quality ISO 8573-1:2010 [3:4:4]
+flow_rate_range,1.5 l/min ... 301.6 l/min,standard range; enhanced: 301.6-452.4 l/min
+accuracy,± 3 % of measured value + 0.3% of measuring range limit,standard; enhanced: ± 8% + 1%
+pressure_range,0 bar ... 16 bar,process pressure
+medium_temperature,-20 °C ... +60 °C,process temperature
+supply_voltage,"Power over Ethernet, IEEE802.3af, Class 0, < 13 W",NOT V DC — PoE powered; expect the extractor to struggle here
+output_signal,"OPC UA, MQTT, integrated web server, REST API",communication interface MQTT
+process_connection,G ¼,DIN ISO 228-1
+ambient_temperature,-20 °C ... +60 °C,storage: -40 °C ... +80 °C

@@ -1,0 +1,20 @@
+family: generic
+display_name: Generic sensor (fallback)
+classifier_hints: []
+fields:
+  - name: part_number
+    display_name: Part number
+    query: What is the part number or type designation?
+    search_terms: [part number, type, order code, Bestellnummer, Typ]
+  - name: supply_voltage
+    display_name: Supply voltage
+    query: What is the supply voltage range in volts DC?
+    search_terms: [supply voltage, operating voltage, Betriebsspannung, V DC, VDC]
+  - name: ip_rating
+    display_name: IP rating
+    query: What is the IP protection rating?
+    search_terms: [IP65, IP67, IP69K, protection class, Schutzart]
+  - name: ambient_temperature
+    display_name: Ambient temperature range
+    query: What is the ambient operating temperature range in °C?
+    search_terms: [ambient temperature, operating temperature, Umgebungstemperatur, "°C"]

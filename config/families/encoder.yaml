@@ -1,0 +1,46 @@
+family: encoder
+display_name: Motor feedback encoder
+classifier_hints:
+  - motor feedback
+  - encoder
+  - Drehgeber
+  - HIPERFACE
+  - EnDat
+  - BiSS
+  - singleturn
+  - multiturn
+  - ENM35
+  - ENS35
+fields:
+  - name: part_number
+    display_name: Part number
+    query: What is the part number or type designation?
+    search_terms: [part number, type, order code, Bestellnummer, Typ]
+  - name: encoder_type
+    display_name: Encoder type
+    query: Is this an absolute or incremental encoder, singleturn or multiturn?
+    search_terms: [absolute, incremental, singleturn, multiturn, absolut, inkremental]
+  - name: resolution
+    display_name: Resolution
+    query: What is the resolution in bits per revolution or pulses per revolution?
+    search_terms: [resolution, bit, PPR, pulses per revolution, Auflösung]
+  - name: interface
+    display_name: Communication interface
+    query: What is the communication interface — HIPERFACE, EnDat, BiSS, SSI?
+    search_terms: [HIPERFACE, EnDat, BiSS, SSI, interface, Schnittstelle]
+  - name: supply_voltage
+    display_name: Supply voltage
+    query: What is the supply voltage range in volts DC?
+    search_terms: [supply voltage, operating voltage, Betriebsspannung, V DC, VDC]
+  - name: max_speed
+    display_name: Maximum mechanical speed
+    query: What is the maximum mechanical speed in RPM or 1/min?
+    search_terms: [maximum speed, mechanical speed, RPM, 1/min, Drehzahl, U/min]
+  - name: ip_rating
+    display_name: IP rating
+    query: What is the IP protection rating?
+    search_terms: [IP65, IP67, IP69K, protection class, Schutzart]
+  - name: operating_temperature
+    display_name: Operating temperature range
+    query: What is the operating temperature range in °C?
+    search_terms: [operating temperature, ambient temperature, Betriebstemperatur, "°C"]

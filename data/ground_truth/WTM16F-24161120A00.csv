@@ -1,0 +1,11 @@
+field,expected_value,notes
+part_number,WTM16F-24161120A00,order number 1157440
+sensing_mode,"Photoelectric proximity sensor with background suppression, foreground suppression, MultiMode",diffuse (proximity)
+sensing_range,10 mm ... 1200 mm,mode 1; up to 2000 mm in combined modes; 0-750 mm in mode 2
+light_source,"PinPoint Pro LED, visible red light",635 nm; free LED risk group
+switching_frequency,1000 Hz,"mode 1/2/3; 500 Hz in mode 4/5; drops to 30 Hz or 15 Hz when combined with mode 6"
+supply_voltage,10 V DC ... 30 V DC,ripple ≤ 5 V
+output_type,"Push-pull PNP/NPN, 2 complementary + IO-Link V1.1",light/dark switching
+connection_type,"Male connector M12, 4-pin",
+ip_rating,IP66 / IP67 / IP69,EN 60529
+ambient_temperature,-40 °C ... +60 °C,storage: -40 °C ... +75 °C

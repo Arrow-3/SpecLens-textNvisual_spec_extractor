@@ -1,0 +1,46 @@
+family: time_of_flight
+display_name: Time-of-flight distance sensor
+classifier_hints:
+  - time-of-flight
+  - ToF
+  - distance sensor
+  - Entfernungssensor
+  - Laufzeitmessung
+  - Dx80
+fields:
+  - name: part_number
+    display_name: Part number
+    query: What is the part number or type designation?
+    search_terms: [part number, type, order code, Bestellnummer, Typ]
+  - name: measuring_range
+    display_name: Measuring range
+    query: What is the measuring range in mm or m?
+    search_terms: [measuring range, sensing range, Messbereich, mm, m]
+  - name: accuracy
+    display_name: Accuracy or resolution
+    query: What is the measurement accuracy or resolution in mm?
+    search_terms: [accuracy, resolution, repeatability, Genauigkeit, Auflösung, Wiederholgenauigkeit]
+  - name: measuring_rate
+    display_name: Measuring rate or response time
+    query: What is the measuring rate in Hz or response time in ms?
+    search_terms: [measuring rate, response time, Messrate, Ansprechzeit, Hz, ms]
+  - name: supply_voltage
+    display_name: Supply voltage
+    query: What is the supply voltage range in volts DC?
+    search_terms: [supply voltage, operating voltage, Betriebsspannung, V DC, VDC]
+  - name: output_type
+    display_name: Output type
+    query: What is the output type — analog current, analog voltage, PNP, IO-Link?
+    search_terms: [analog, current, voltage, PNP, NPN, IO-Link, output, Ausgang, mA]
+  - name: laser_class
+    display_name: Laser class
+    query: What is the laser class — Class 1, Class 2, or higher?
+    search_terms: [laser class, Laserklasse, Class 1, Class 2]
+  - name: ip_rating
+    display_name: IP rating
+    query: What is the IP protection rating?
+    search_terms: [IP65, IP67, IP69K, protection class, Schutzart]
+  - name: ambient_temperature
+    display_name: Ambient temperature range
+    query: What is the ambient operating temperature range in °C?
+    search_terms: [ambient temperature, operating temperature, Umgebungstemperatur, "°C"]

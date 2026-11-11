@@ -1,0 +1,51 @@
+family: lidar
+display_name: 2D LiDAR scanner
+classifier_hints:
+  - LiDAR
+  - laser scanner
+  - 2D
+  - scanning angle
+  - picoScan
+  - LMS
+  - Laserscanner
+fields:
+  - name: part_number
+    display_name: Part number
+    query: What is the part number or type designation?
+    search_terms: [part number, type, order code, Bestellnummer, Typ]
+  - name: scanning_angle
+    display_name: Scanning angle
+    query: What is the scanning angle in degrees?
+    search_terms: [scanning angle, aperture angle, "°", degrees, Scanwinkel, Öffnungswinkel]
+  - name: angular_resolution
+    display_name: Angular resolution
+    query: What is the angular resolution in degrees?
+    search_terms: [angular resolution, resolution, "°", Winkelauflösung]
+  - name: scanning_frequency
+    display_name: Scanning frequency
+    query: What is the scanning frequency in Hz?
+    search_terms: [scanning frequency, scan frequency, Hz, Scanfrequenz]
+  - name: working_range
+    display_name: Working range
+    query: What is the working range or measurement range in meters?
+    search_terms: [working range, measuring range, operating range, m, Arbeitsbereich, Messbereich]
+  - name: number_of_echoes
+    display_name: Number of echoes
+    query: How many echoes or targets can be detected per beam?
+    search_terms: [echo, echoes, multi-echo, targets, Echos]
+  - name: interface
+    display_name: Communication interface
+    query: What is the communication interface — Ethernet, USB, CAN?
+    search_terms: [Ethernet, USB, CAN, interface, Schnittstelle]
+  - name: supply_voltage
+    display_name: Supply voltage
+    query: What is the supply voltage range in volts DC?
+    search_terms: [supply voltage, Betriebsspannung, V DC, VDC]
+  - name: ip_rating
+    display_name: IP rating
+    query: What is the IP protection rating?
+    search_terms: [IP65, IP67, IP69K, protection class, Schutzart]
+  - name: ambient_temperature
+    display_name: Ambient temperature range
+    query: What is the ambient operating temperature range in °C?
+    search_terms: [ambient temperature, operating temperature, Umgebungstemperatur, "°C"]

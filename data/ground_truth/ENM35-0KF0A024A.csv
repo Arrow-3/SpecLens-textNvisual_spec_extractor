@@ -1,0 +1,9 @@
+field,expected_value,notes
+part_number,ENM35-0KF0A024A,order number 1147114
+encoder_type,absolute multiturn,4096 absolute revolutions; optical measurement principle
+resolution,24 bit per revolution,
+interface,HIPERFACE DSL®,
+supply_voltage,7 V ... 12 V,
+max_speed,≤ 9000 min⁻¹,operating speed
+ip_rating,IP30,with mating connector inserted
+operating_temperature,-40 °C ... +118 °C,storage: -40 °C ... +125 °C

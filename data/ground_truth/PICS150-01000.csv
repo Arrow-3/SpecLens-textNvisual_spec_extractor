@@ -1,0 +1,11 @@
+field,expected_value,notes
+part_number,PICS150-01000 Core-1,order number 1134608
+scanning_angle,276°,horizontal aperture angle
+angular_resolution,"0.25° / 0.33° / 1°",depends on Dynamic Sensing Profile
+scanning_frequency,15 Hz / 25 Hz,depends on Dynamic Sensing Profile
+working_range,0.05 m ... 25 m,blind zone 0-0.05 m; 12 m at 10% remission
+number_of_echoes,3,multi-echo technology
+interface,"Ethernet, UDP/IP and TCP/IP",100BaseTx; 10-100 Mbit/s
+supply_voltage,9 V DC ... 30 V DC,typ. 4.5 W; max 17 W
+ip_rating,IP65 / IP67,IEC 60529 with system plug connected
+ambient_temperature,-33 °C ... +50 °C,storage: -40 °C ... +70 °C
